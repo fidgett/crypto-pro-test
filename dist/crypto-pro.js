@@ -3482,7 +3482,7 @@ exports.getCertificate = _afterPluginsLoaded_1._afterPluginsLoaded(function (thu
                 if (!thumbprint) {
                     throw new Error('Отпечаток не указан');
                 }
-                console.log('getCertificate1');
+                console.log('getCertificate1111');
                 return [4 /*yield*/, getUserCertificates_1.getUserCertificates()];
             case 1:
                 availableCertificates = _a.sent();
