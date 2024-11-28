@@ -14,6 +14,8 @@ export const getCertificate = _afterPluginsLoaded(
       throw new Error('Отпечаток не указан');
     }
 
+    console.log('getCertificate1');
+
     const availableCertificates: Certificate[] = await getUserCertificates();
     const foundCertificate: Certificate = availableCertificates.find((cert) => cert.thumbprint === thumbprint);
 
